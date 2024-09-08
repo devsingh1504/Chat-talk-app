@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(cookieParser());
 //frontend url
 const corsOption = {
-  origin: "http://localhost:3000",
+  origin: "https://chat-talk-app.vercel.app/",
   credentials: true,
 };
 app.use(cors(corsOption));
