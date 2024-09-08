@@ -11,7 +11,7 @@ import { persistStore } from "redux-persist";
 let persistor = persistStore(store);
 
 //backend url
-export const BASE_URL = "http://localhost:8080";
+export const BASE_URL = "https://chat-talk-backend.onrender.com";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
