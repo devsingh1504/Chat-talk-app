@@ -2,36 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 body {
-  background: url(../public/bg.avif);
+  background: url(../public/turkey.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-
+/* for changes the color size of the scollbar means they gives changes in the scollbar*/
 ::-webkit-scrollbar {
   /* Customize the scrollbar width */
-  width:6px;
+  width: 6px;
 }
 
 ::-webkit-scrollbar-track {
   /* Customize the scrollbar track */
-  background-color: aliceblue;
+  background-color: azure;
 }
 
 ::-webkit-scrollbar-thumb {
   /* Customize the scrollbar thumb */
-  background: #1b1b1b;
   border-radius: 10px;
+  background: #000;
 }
